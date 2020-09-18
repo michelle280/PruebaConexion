@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+    <class name="hibernate.beans.Prestamo">
+        <id name="idPrestamo" column="" type="int"/>
+        <property name="fechaPrestamo" column="fecha_prestamo" type="string"/>
+        <property name="fechaDevolucion" column="fecha_devolucion" type="string"/>
+        <property name="Nprestamo" column="n_prestamo" type="int"/>
+        <property name="ClienteIdCliente" column="cliente_idcliente" type="int"/>
+        <property name="librosISBN" column="libros_ISBN" type="int"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+     <class name="hibernate.beans.Libros" table="libros">
+        <id name="ISBN" column="ISBN" type="int"/>
+        <property name="Nombrelibro" column="Nombre_libro" type="string"/>
+        <property name="nejemplares" column="nejemplares" type="int"/>
+        <property name="edicion" column="edicion" type="int"/>
+        <property name="npaginas" column="n_paginas" type="int"/>
+        <property name="Ano" column="ano" type="string"/>
+        <property name="AutorIdAutor" column="Autor_idAutor" type="int"/>
+        
+</class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="hibernate.beans.Cliente" table="cliente">
+       <id name="idCliente" column="idCliente" type="int"/>
+        <property name="ApellidoPaterno" column="Apelido_Paterno" type="string"/>
+        <property name="ApellidoMaterno" column="Apellido_Materno" type="string"/>
+        <property name="Nombre" column="Nombre" type="string"/>
+        <property name="Telefono" column="Telefono" type="int"/>
+        <property name="email" column="email" type="string"/>
+        <property name="Direccion" column="direccion" type="string"/>
+
+</class>
+</hibernate-mapping>

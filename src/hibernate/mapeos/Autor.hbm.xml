@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+   <class name="hibernate.beans.Autor" table="autor" >    
+        <id name="idAutor" column="idAutor" type="int"/>
+        <property name="Nombre" column="Apellido_Paterno" type="string"/>
+        <property name="ApellidoPaterno" column="Apellido_Materno" type="string"/>
+        <property name="ApellidoMaterno" column="Nombre" type="string"/>
+        <property name="Fechadenacimiento" column="Fecha_Nacimiento" type="string"/>
+        <property name="Pais" column="Pais" type="string"/>
+        
+
+
+   </class>
+</hibernate-mapping>
